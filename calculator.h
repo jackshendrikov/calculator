@@ -4,8 +4,10 @@
 class Calculator
 {
     public:
-        int Add (int, int);
+        int Add (double, double);
+		int Sub (double, double);
         int Mul (double, double);
+		int Factorial(int);
 };
 
 #endif//CALCULATOR_H
